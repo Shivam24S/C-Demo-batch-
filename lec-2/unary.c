@@ -19,5 +19,6 @@ int main(){
         printf("unary + :%d\n", x++);
 
 
+        return 0;
 
 }
