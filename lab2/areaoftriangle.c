@@ -1,25 +1,25 @@
+
+
 // area of triangle
 
-#include<stdio.h>
+
+#include <stdio.h>
 
 int main(){
 
-    float area,breadth,height;
+    float area,height,breadth;
+
+    printf("enter the height:\n");
+    
+    scanf("%f",&height);
 
     printf("enter the breadth:\n");
 
     scanf("%f",&breadth);
 
-    printf("enter the height:\n");
-
-    scanf("%f",&height);
-
     area = 0.5 * breadth * height;
 
-    printf("the area of triangle is:%f\n",area);
-
+    printf("the area of triangle is:%2.f\n",area);
     return 0;
-
-
 
 }

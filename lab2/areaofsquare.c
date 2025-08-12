@@ -1,21 +1,25 @@
 
+
+
 // find the area of square
 
 
 #include <stdio.h>
 
+
 int main(){
 
     float length,area;
 
-    printf("enter the length :");
+    printf("enter the length:\n");
 
     scanf("%f",&length);
 
     area = length * length;
 
-    printf("area of square:%f\n",area);
+    printf("area of square:%2.f\n",area);
 
-return 0;
+    return 0;
+
 
 }
