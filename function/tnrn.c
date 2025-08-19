@@ -3,16 +3,21 @@
 //  Use case: When you just want to perform an operation, but no input or result is needed.
 
 
+
+
 #include <stdio.h>
 
+
 void greeting(){
-    printf("hi there!");
+    printf("hello");
+    
 }
+
 
 int main(){
 
     greeting();
-    return 0;
 
+    return 0;
 
 }

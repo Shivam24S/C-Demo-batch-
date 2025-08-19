@@ -4,28 +4,27 @@
 
 // Use case: When input is fixed inside the function but you need a result.
 
+
 #include <stdio.h>
+
 
 int getYear(){
 
-    int year=2025;
-    return year;
+    int currentyear=2025;
+
+    return currentyear;
+
+
 
 }
 
 int main(){
 
+int year = getYear();
 
-    int currentYear = getYear();
-
-    printf("the current year is %d\n",currentYear);
-
-    return 0;
+printf("%d",year);
 
 
-
-
-
-
+return 0;
 
 }

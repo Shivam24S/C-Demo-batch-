@@ -6,19 +6,22 @@
 
 #include <stdio.h>
 
+void sum(int a, int b){
 
-void sum(int a,int b){
 
     int total = a+b;
 
-    printf("the sum of the numbers: %d\n",total);
+    printf("%d",total);
 
 }
 
 
 int main(){
 
-    sum(10,20);
+    sum(5,6);
+
     return 0;
+
+
 
 }

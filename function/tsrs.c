@@ -4,11 +4,13 @@
 // Use case: When input is needed and result must be given back.
 
 
+
+
 #include <stdio.h>
 
-int multiply(int a,int b){
+int multiply (int a, int b){
 
-   
+
     return a*b;
 
 }
@@ -16,13 +18,25 @@ int multiply(int a,int b){
 
 int main(){
 
+    int result1= multiply(5,6);
 
-    int result = multiply(4,5);
+    printf("%d\n",result1);
 
-    printf("the multiplication of these numbers:%d\n",result);
+    
+
+    int result2= multiply(10,7);
+
+    printf("%d\n",result2);
+
+
+    int result3= multiply(9,8);
+
+    printf("%d\n",result3);
+
 
     return 0;
 
 
 
 }
+
